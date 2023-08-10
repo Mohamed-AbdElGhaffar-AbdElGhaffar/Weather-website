@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+@media (min-width: 1400px) {
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+      max-width: 1140px;
+    }
+}
+body .navbar{
+    background-color: #1e202b;
+    color: #fff;
+    padding: 50px 0;
+}
+body .navbar .navbar-brand img{
+    height: 38px;
+    margin-right: 10px;
+}
+body .navbar .logoTitle{
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+body .navbar .logoBody{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    color: #BFC1C8;
+}
+body .navbar .navbar-nav .nav-item{
+    margin-left: 10px;
+}
+body .navbar .navbar-nav .nav-item .nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 2px transparent solid;
+    color: #fff;
+    border-radius: 30px;
+    padding: 3px 25px;
+}
+body .navbar .navbar-nav .nav-item .nav-link.active , body .navbar .navbar-nav .nav-item .nav-link:hover{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 2px #009ad8 solid;
+    color: #009ad8;
+    border-radius: 30px;
+    padding: 3px 25px;
+}
+body .Siction{
+    background-color: #1e202b;
+}
+body .Siction .Siction-1{
+    background-image: url(../img/banner.png);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    padding: 35px 0;
+}
+body .Siction .Siction-1 .searh{
+    margin-bottom: 70px;
+}
+body .Siction .Siction-1 .container .form-control, body footer .container .form-control{
+    padding: 20px 50px 20px 20px;
+    background-color: #1e202b;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: normal;
+    
+}
+.form-control::-moz-placeholder {
+    color: #777777;
+    opacity: 1;
+}
+.form-control::placeholder {
+    color: #777777;
+    opacity: 1; 
+}
+.form-control:focus {
+    box-shadow: none;
+}
+body .Siction .Siction-1 .container button, body footer .container button{
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: none;
+    background: #009ad8;
+    padding: 0 40px;
+    border-radius: 30px;
+    color: white;
+    
+}
+body .Siction .Siction-1 .container .Table{
+    background-color: #323544;
+    border-radius: 10px;
+}
+/* body .Siction .Siction-1 .container .Table .Siction-1-1 {
+    width: 33.333%;
+} */
+body .Siction .Siction-1 .container .Table .Siction-1-1 .Siction-1-1-1, body .Siction .Siction-1 .container .Table .Siction-1-2 .Siction-1-1-1, body .Siction .Siction-1 .container .Table .Siction-1-3 .Siction-1-1-1{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+body .Siction .Siction-1 .container .Table .Siction-1-1 .Siction-1-1-1 h2, body .Siction .Siction-1 .container .Table .Siction-1-2 .Siction-1-1-1 h2, body .Siction .Siction-1 .container .Table .Siction-1-3 .Siction-1-1-1 h2{
+    font-weight: 400;
+    font-size: 14px;
+    color: #bfc1c8;
+    margin-bottom:0;
+}
+body .Siction .Siction-1 .container .Table .Siction-1-1 .outputFirstDay {
+    padding: 30px 10px
+}
+body .Siction .Siction-1 .container .Table .Siction-1-1 .outputFirstDay h3{
+    color: #BFC1C8;
+    font-size: 18px;
+    font-weight: 400;
+}
+body .Siction .Siction-1 .container .Table .Siction-1-1 .outputFirstDay .num{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 135px;
+}
+body .Siction .Siction-1 .container .Table .Siction-1-1 .outputFirstDay .condition , body .Siction .Siction-1 .container .Table .Siction-1-2 .condition, body .Siction .Siction-1 .container .Table .Siction-1-3 .condition{
+    color: #009ad8;
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+}
+body .Siction .Siction-1 .container .Table .Siction-1-1 .outputFirstDay .icon img{
+    width: 90px;
+}
+body .Siction .Siction-1 .container .Table .Siction-1-1 .outputFirstDay .icons img{
+    margin-right: 5px;
+    width: 21px;
+    height: 21px;
+}
+body .Siction .Siction-1 .container .Table .Siction-1-1 .outputFirstDay .icons .d-flex{
+    margin-right: 20px
+}
+body .Siction .Siction-1 .container .Table .Siction-1-1 .outputFirstDay p{
+    color: #BFC1C8;
+    font-size: 14px;
+    font-weight: 300;
+}
+body .Siction .Siction-1 .container .Table .Siction-1-2{
+    background-color: #262936;
+    /* width: 33.333%; */
+}
+body .Siction .Siction-1 .container .Table .Siction-1-2 .maxNum , body .Siction .Siction-1 .container .Table .Siction-1-3 .maxNum{
+    color: #fff;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+body .Siction .Siction-1 .container .Table .Siction-1-2 .minNum, body .Siction .Siction-1 .container .Table .Siction-1-3 .minNum{
+    color: #BFC1C8;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+body .Siction .Siction-1 .container .Table .Siction-1-2 .Siction-1-2-1, body .Siction .Siction-1 .container .Table .Siction-1-3 .Siction-1-2-1{
+    padding: 50px 20px 10px;
+}
+/* body .Siction .Siction-1 .container .Table .Siction-1-3{
+    width: 33.333%;
+} */
+.row>*{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+body footer{
+    background-color: #262936;
+    padding: 50px 0;
+}
+body footer .container .searh{
+    margin-bottom: 30px;
+}
+body footer .container .row{
+    margin-bottom: 10px;
+}
+body footer .col-md-3 .icon{
+    width: 40px;
+    height: 40px;
+    background-color: #1e202b;
+    border-radius: 50%;
+    color: #009ad8;
+    transition: 0.3s ease;
+}
+body footer .col-md-3 .icon:hover{
+    background-color: #009ad8;
+    color: #fff;
+}
+body footer .container p{
+    color: #BFC1C8;
+    font-size: 14px;
+    font-weight: 300;
+}
