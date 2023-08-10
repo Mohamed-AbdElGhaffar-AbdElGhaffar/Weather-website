@@ -8,8 +8,9 @@ for(let i=0;i<navLinks.length;i++){
     });
 }
 
-
-document.getElementById("searchInput").addEventListener("keyup", a=>{getNews(a.target.value) });
+let searchInput = document.getElementById("searchInput");
+searchInput.addEventListener("keyup", a=>{getNews(a.target.value) });
+document.getElementById("searchButton").addEventListener("click", ()=>{getNews(searchInput.value) });
 
 
 
